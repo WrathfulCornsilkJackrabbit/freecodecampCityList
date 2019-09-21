@@ -3,5 +3,3 @@
 
 ### Tech Stack
 - Angular
-- Another
-- Another line here for testing
