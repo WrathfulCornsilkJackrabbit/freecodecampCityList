@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CityModel } from '../models/CityModel';
+import { CoffeeShopModel } from '../models/CoffeeShopModel';
+
 
 @Component({
   selector: 'app-city',
@@ -8,14 +10,41 @@ import { CityModel } from '../models/CityModel';
 })
 export class CityComponent implements OnInit {
 
-  cityDataModel: CityModel;
+  city: CityModel = {
+    name: 'Norwich',
+    imagePath: 'Norwich',
+    coffeeShops: [],
+  };
 
   constructor() { }
 
   ngOnInit() {
-    this.cityDataModel = new CityModel();
-    this.cityDataModel.name = 'Norwich';
-    this.cityDataModel.imagePath = 'Norwich';
+    this.city.coffeeShops.push(
+      new CoffeeShopModel('Marzano Cafe & Bar')
+    );
+    this.city.coffeeShops.push(
+      new CoffeeShopModel('Marzano Cafe & Bar')
+    );
+    this.city.coffeeShops.push(
+      new CoffeeShopModel('Marzano Cafe & Bar')
+    );
+    this.city.coffeeShops.push(
+      new CoffeeShopModel('Marzano Cafe & Bar')
+    );
+    this.city.coffeeShops.push(
+      new CoffeeShopModel('Marzano Cafe & Bar')
+    );
+    this.city.coffeeShops.push(
+      new CoffeeShopModel('Marzano Cafe & Bar')
+    );
+    this.city.coffeeShops.push(
+      new CoffeeShopModel('Marzano Cafe & Bar')
+    );
+    this.city.coffeeShops.push(
+      new CoffeeShopModel('Marzano Cafe & Bar')
+    );
+
+    console.log('DEBUG size: ' + this.city.coffeeShops.length);
   }
 
 }

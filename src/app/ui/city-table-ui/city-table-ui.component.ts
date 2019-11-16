@@ -13,6 +13,7 @@ export class CityTableUiComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log('DEBUG size: ' + this.city.coffeeShops.length);
   }
 
 }

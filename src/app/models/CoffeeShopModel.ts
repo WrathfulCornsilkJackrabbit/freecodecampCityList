@@ -1,3 +1,5 @@
 export class CoffeeShopModel {
-    name: string;
+  constructor(public name: string) {
+    this.name = name;
   }
+}
