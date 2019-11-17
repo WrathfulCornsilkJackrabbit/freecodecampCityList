@@ -1,5 +1,5 @@
 # FreecodecampCityList
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 ## Norwich Freecodecamp community project that shows cities key information for developers around the world.
 
 Show city information that matters to freecodecampers and developers alike around the world.
