@@ -15,14 +15,15 @@
         "projectManagement",
         "doc"
       ]
-    }, {
+    },
+    {
       "login": "JackPriceBurns",
       "name": "Jack Price-Burns",
       "avatar_url": "https://avatars3.githubusercontent.com/u/5484580?v=4",
       "profile": "https://github.com/JackPriceBurns",
       "contributions": [
         "code"
-        ]
+      ]
     }
   ],
   "contributorsPerLine": 7,
