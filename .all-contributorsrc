@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "alexiorodrigues",
+      "name": "Aléxio Rodrigues",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/38375978?v=4",
+      "profile": "http://www.alexiorodrigues.com",
+      "contributions": [
+        "code",
+        "projectManagement",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "freecodecampCityList",
+  "projectOwner": "alexiorodrigues",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
