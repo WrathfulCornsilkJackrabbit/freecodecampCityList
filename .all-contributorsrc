@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "LXie-Saintex",
+      "name": "Lang Xie",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/53173457?v=4",
+      "profile": "https://github.com/LXie-Saintex",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "freecodecampCityList",
+  "projectOwner": "alexiorodrigues",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
