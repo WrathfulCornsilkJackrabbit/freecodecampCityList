@@ -1,6 +1,6 @@
 # FreecodecampCityList
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 ## Norwich Freecodecamp community project that shows cities key information for developers around the world.
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 Show city information that matters to freecodecampers and developers alike around the world.
 
@@ -41,6 +41,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://www.alexiorodrigues.com"><img src="https://avatars1.githubusercontent.com/u/38375978?v=4" width="100px;" alt="Aléxio Rodrigues"/><br /><sub><b>Aléxio Rodrigues</b></sub></a><br /><a href="https://github.com/alexiorodrigues/freecodecampCityList/commits?author=alexiorodrigues" title="Code">💻</a> <a href="#projectManagement-alexiorodrigues" title="Project Management">📆</a> <a href="https://github.com/alexiorodrigues/freecodecampCityList/commits?author=alexiorodrigues" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/JackPriceBurns"><img src="https://avatars3.githubusercontent.com/u/5484580?v=4" width="100px;" alt="Jack Price-Burns"/><br /><sub><b>Jack Price-Burns</b></sub></a><br /><a href="https://github.com/alexiorodrigues/freecodecampCityList/commits?author=JackPriceBurns" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/LXie-Saintex"><img src="https://avatars1.githubusercontent.com/u/53173457?v=4" width="100px;" alt="Lang Xie"/><br /><sub><b>Lang Xie</b></sub></a><br /><a href="https://github.com/alexiorodrigues/freecodecampCityList/commits?author=LXie-Saintex" title="Code">💻</a></td>
   </tr>
 </table>
 
