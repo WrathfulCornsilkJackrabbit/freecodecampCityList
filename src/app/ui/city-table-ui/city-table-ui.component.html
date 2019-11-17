@@ -4,16 +4,20 @@
       <tr>
         <th scope="col">#</th>
         <th scope="col">Name</th>
-        <th scope="col">Last</th>
-        <th scope="col">Handle</th>
+        <th scope="col">Location</th>
+        <th scope="col">Has Power Outlets?</th>
+        <th scope="col">Has Wifi?</th>
+        <th scope="col">Has Group Tables?</th>
       </tr>
     </thead>
     <tbody>
       <tr *ngFor="let item of city.coffeeShops">
         <th scope="row">1</th>
         <td>{{ item.name }}</td>
-        <td>Otto</td>
-        <td>@mdo</td>
+        <td>{{ item.location }}</td>
+        <td>{{ item.hasPowerOutlets }}</td>
+        <td>{{ item.hasWifi }}</td>
+        <td>{{ item.hasGroupTables }}</td>
       </tr>
     </tbody>
   </table>

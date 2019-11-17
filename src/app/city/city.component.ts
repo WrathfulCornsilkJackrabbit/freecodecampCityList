@@ -19,32 +19,12 @@ export class CityComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.city.coffeeShops.push(
-      new CoffeeShopModel('Marzano Cafe & Bar')
-    );
-    this.city.coffeeShops.push(
-      new CoffeeShopModel('Marzano Cafe & Bar')
-    );
-    this.city.coffeeShops.push(
-      new CoffeeShopModel('Marzano Cafe & Bar')
-    );
-    this.city.coffeeShops.push(
-      new CoffeeShopModel('Marzano Cafe & Bar')
-    );
-    this.city.coffeeShops.push(
-      new CoffeeShopModel('Marzano Cafe & Bar')
-    );
-    this.city.coffeeShops.push(
-      new CoffeeShopModel('Marzano Cafe & Bar')
-    );
-    this.city.coffeeShops.push(
-      new CoffeeShopModel('Marzano Cafe & Bar')
-    );
-    this.city.coffeeShops.push(
-      new CoffeeShopModel('Marzano Cafe & Bar')
-    );
-
-    console.log('DEBUG size: ' + this.city.coffeeShops.length);
+    // TODO TEMP
+    for (let i = 0; i < 10; i++) {
+      this.city.coffeeShops.push(
+        new CoffeeShopModel('Marzano Cafe & Bar', 'Norwich Forum', false, true, true)
+      );
+    }
   }
 
 }
