@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CityModel } from '../models/CityModel';
 import { CoffeeShopModel } from '../models/CoffeeShopModel';
+import { CityListService } from '../_services/city-list.service';
 
 
 @Component({
@@ -10,21 +11,12 @@ import { CoffeeShopModel } from '../models/CoffeeShopModel';
 })
 export class CityComponent implements OnInit {
 
-  city: CityModel = {
-    name: 'Norwich',
-    imagePath: 'Norwich',
-    coffeeShops: [],
-  };
+  city: CityModel;
 
-  constructor() { }
+  constructor(private cityService: CityListService) { }
 
   ngOnInit() {
-    // TODO TEMP
-    for (let i = 0; i < 10; i++) {
-      this.city.coffeeShops.push(
-        new CoffeeShopModel('Marzano Cafe & Bar', 'Norwich Forum', false, true, true)
-      );
-    }
+    this.city = this.cityService.getMockCityData();
   }
 
 }
