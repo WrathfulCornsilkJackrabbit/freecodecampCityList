@@ -18,5 +18,4 @@ export class CityComponent implements OnInit {
   ngOnInit() {
     this.city = this.cityService.getMockCityData();
   }
-
 }
