@@ -10,7 +10,6 @@ import { CityListService } from '../_services/city-list.service';
   styleUrls: ['./city.component.css']
 })
 export class CityComponent implements OnInit {
-
   city: CityModel;
 
   constructor(private cityService: CityListService) { }
