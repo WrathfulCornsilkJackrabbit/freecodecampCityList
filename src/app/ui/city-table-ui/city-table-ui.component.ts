@@ -8,12 +8,10 @@ import { CityModel } from 'src/app/models/CityModel';
 })
 export class CityTableUiComponent implements OnInit {
 
-  @Input() city: CityModel;
+  @Input() city: any;
 
   constructor() { }
 
-  ngOnInit() {
-    console.log('DEBUG size: ' + this.city.coffeeShops.length);
-  }
+  ngOnInit() { }
 
 }

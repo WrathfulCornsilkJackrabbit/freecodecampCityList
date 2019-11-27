@@ -9,6 +9,8 @@ import { DemoUiComponent } from './demo-ui/demo-ui.component';
 import { CityComponent } from './city/city.component';
 import { CityHeroUiComponent } from './ui/city-hero-ui/city-hero-ui.component';
 import { CityTableUiComponent } from './ui/city-table-ui/city-table-ui.component';
+import { CityListService } from './_services/city-list.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
    declarations: [
@@ -21,10 +23,13 @@ import { CityTableUiComponent } from './ui/city-table-ui/city-table-ui.component
    ],
    imports: [
       NgbModule,
+      HttpClientModule,
       BrowserModule,
       AppRoutingModule
    ],
-   providers: [],
+   providers: [
+      CityListService
+   ],
    bootstrap: [
       AppComponent
    ]
