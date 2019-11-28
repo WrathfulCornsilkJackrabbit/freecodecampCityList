@@ -18,7 +18,12 @@ Wondered where you can find a coffee shop open untill late with wify and a place
 3. [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 ### Running the project 🏃‍♀️
-Run the angular project
+Install all the project's dependencies
+```bash
+npm install
+```
+
+Run the Angular project
 ```bash
 ng serve -o
 ```
