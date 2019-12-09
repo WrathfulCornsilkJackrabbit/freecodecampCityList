@@ -5,6 +5,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './ui/navigation/navigation.component';
+import { BadgeComponent } from './ui/badge/badge.component';
 import { HomeComponent } from './home/home.component';
 import { DemoUiComponent } from './demo-ui/demo-ui.component';
 import { CityComponent } from './city/city.component';
@@ -17,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
    declarations: [
       AppComponent,
       NavigationComponent,
+      BadgeComponent,
       HomeComponent,
       DemoUiComponent,
       CityComponent,

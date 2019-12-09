@@ -13,32 +13,17 @@
       <tr *ngFor="let item of city.coffeeShops">
         <th scope="row">{{ item.id }}</th>
         <td>
-          <div class="tableStyleName">{{ item.name }}</div>
-          <div class="tableStyleLocation">{{ item.location }}</div>
+          <div class="tableTitle">{{ item.name }}</div>
+          <div class="tableSubtitle">{{ item.location }}</div>
         </td>
         <td>
-          <span *ngIf="item.hasPowerOutlets; else elseBlock"
-            ><span class="badge badge-success">True</span></span
-          >
-          <ng-template #elseBlock
-            ><span class="badge badge-danger">False</span></ng-template
-          >
+          <app-badge [badge]="item.hasPowerOutlets"></app-badge>
         </td>
         <td>
-          <span *ngIf="item.hasWifi; else elseBlock"
-            ><span class="badge badge-success">True</span></span
-          >
-          <ng-template #elseBlock
-            ><span class="badge badge-danger">False</span></ng-template
-          >
+          <app-badge [badge]="item.hasWifi"></app-badge>
         </td>
         <td>
-          <span *ngIf="item.hasGroupTables; else elseBlock"
-            ><span class="badge badge-success">True</span></span
-          >
-          <ng-template #elseBlock
-            ><span class="badge badge-danger">False</span></ng-template
-          >
+          <app-badge [badge]="item.hasGroupTables"></app-badge>
         </td>
       </tr>
     </tbody>

@@ -1,0 +1,7 @@
+<span *ngIf="showBadge(); else elseBlock">
+  <span class="badge badge-pill badge-success">Yes</span>
+</span>
+
+<ng-template #elseBlock>
+  <span class="badge badge-pill badge-danger">no</span>
+</ng-template>
