@@ -4,9 +4,9 @@
       <tr>
         <th scope="col"></th>
         <th scope="col">Name</th>
-        <th scope="col">Power Outlets?</th>
-        <th scope="col">Wifi?</th>
-        <th scope="col">Group Tables?</th>
+        <th scope="col" class="d-none d-sm-table-cell">Power Outlets?</th>
+        <th scope="col" class="d-none d-sm-table-cell">Wifi?</th>
+        <th scope="col" class="d-none d-sm-table-cell">Group Tables?</th>
       </tr>
     </thead>
     <tbody>
@@ -16,13 +16,13 @@
           <div class="tableTitle">{{ item.name }}</div>
           <div class="tableSubtitle">{{ item.location }}</div>
         </td>
-        <td>
+        <td class="d-none d-sm-table-cell">
           <app-badge [badge]="item.hasPowerOutlets"></app-badge>
         </td>
-        <td>
+        <td class="d-none d-sm-table-cell">
           <app-badge [badge]="item.hasWifi"></app-badge>
         </td>
-        <td>
+        <td class="d-none d-sm-table-cell">
           <app-badge [badge]="item.hasGroupTables"></app-badge>
         </td>
       </tr>
