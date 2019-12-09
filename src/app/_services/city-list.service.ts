@@ -7,7 +7,7 @@ import { HttpClient } from "@angular/common/http";
   providedIn: "root"
 })
 export class CityListService {
-  private REST_API_SERVER = "https://api.myjson.com/bins/u7eh6";
+  private REST_API_SERVER = 'https://api.myjson.com/bins/ftfc8';
 
   constructor(private httpClient: HttpClient) {}
 

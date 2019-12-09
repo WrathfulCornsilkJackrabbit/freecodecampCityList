@@ -1,23 +1,45 @@
-<div class="table-responsive">
-  <table class="table table-striped table-hover">
+<div class="table-responsive shadow-lg">
+  <table class="table table-hover">
     <thead class="thead-dark">
       <tr>
-        <th scope="col">#</th>
+        <th scope="col"></th>
         <th scope="col">Name</th>
-        <th scope="col">Location</th>
-        <th scope="col">Has Power Outlets?</th>
-        <th scope="col">Has Wifi?</th>
-        <th scope="col">Has Group Tables?</th>
+        <th scope="col">Power Outlets?</th>
+        <th scope="col">Wifi?</th>
+        <th scope="col">Group Tables?</th>
       </tr>
     </thead>
     <tbody>
       <tr *ngFor="let item of city.coffeeShops">
         <th scope="row">{{ item.id }}</th>
-        <td>{{ item.name }}</td>
-        <td>{{ item.location }}</td>
-        <td>{{ item.hasPowerOutlets }}</td>
-        <td>{{ item.hasWifi }}</td>
-        <td>{{ item.hasGroupTables }}</td>
+        <td>
+          <div class="tableStyleName">{{ item.name }}</div>
+          <div class="tableStyleLocation">{{ item.location }}</div>
+        </td>
+        <td>
+          <span *ngIf="item.hasPowerOutlets; else elseBlock"
+            ><span class="badge badge-success">True</span></span
+          >
+          <ng-template #elseBlock
+            ><span class="badge badge-danger">False</span></ng-template
+          >
+        </td>
+        <td>
+          <span *ngIf="item.hasWifi; else elseBlock"
+            ><span class="badge badge-success">True</span></span
+          >
+          <ng-template #elseBlock
+            ><span class="badge badge-danger">False</span></ng-template
+          >
+        </td>
+        <td>
+          <span *ngIf="item.hasGroupTables; else elseBlock"
+            ><span class="badge badge-success">True</span></span
+          >
+          <ng-template #elseBlock
+            ><span class="badge badge-danger">False</span></ng-template
+          >
+        </td>
       </tr>
     </tbody>
   </table>
