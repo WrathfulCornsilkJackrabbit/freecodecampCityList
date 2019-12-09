@@ -15,14 +15,8 @@ export class CityComponent implements OnInit {
 
   ngOnInit() {
     this.cityService.getCityData().subscribe(
-      data => {
-        this.city = data;
-        // console.log("Current city value: " + this.city);
-        console.log('Success');
-      },
-      error => {
-        console.log(error);
-      }
+      data => (this.city = data),
+      error => console.log(error)
     );
   }
 }
