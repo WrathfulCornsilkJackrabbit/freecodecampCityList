@@ -4,6 +4,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavigationComponent } from './ui/navigation/navigation.component';
 import { HomeComponent } from './home/home.component';
 import { DemoUiComponent } from './demo-ui/demo-ui.component';
 import { CityComponent } from './city/city.component';
@@ -15,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
 @NgModule({
    declarations: [
       AppComponent,
+      NavigationComponent,
       HomeComponent,
       DemoUiComponent,
       CityComponent,
