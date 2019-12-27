@@ -1,16 +1,27 @@
-<div class="container-background">
-  <app-navigation></app-navigation>
+<div class="main-container">
+  <div class="content">
+    <div class="header">
+      <app-navigation></app-navigation>
+    </div>
 
-  <div class="container container-style">
-    <div class="jumbotron jumbotron-fluid">
+    <div class="main">
       <div class="container">
-        <h1 class="display-4">Search for dev spots nearby</h1>
-        <p class="lead">
-          This is a modified jumbotron that occupies the entire horizontal space
-          of its parent.
-        </p>
-        <button type="button" class="btn btn-primary">Primary</button>
+        <h1>Search for dev spots nearby</h1>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">@</span>
+          </div>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Type a city name ..."
+            aria-label="Username"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+        <button type="button" class="btn btn-primary">Search</button>
       </div>
     </div>
   </div>
+
 </div>
