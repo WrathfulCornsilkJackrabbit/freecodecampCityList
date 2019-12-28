@@ -5,6 +5,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './ui/navigation/navigation.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BadgeComponent } from './ui/badge/badge.component';
 import { HomeComponent } from './home/home.component';
 import { DemoUiComponent } from './demo-ui/demo-ui.component';
@@ -29,6 +30,7 @@ import { HomeSearchComponent } from './ui/home-search/home-search.component';
    ],
    imports: [
       NgbModule,
+      FontAwesomeModule,
       HttpClientModule,
       BrowserModule,
       AppRoutingModule
