@@ -13,6 +13,7 @@ import { CityHeroUiComponent } from './ui/city-hero-ui/city-hero-ui.component';
 import { CityTableUiComponent } from './ui/city-table-ui/city-table-ui.component';
 import { CityListService } from './_services/city-list.service';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeSearchComponent } from './ui/home-search/home-search.component';
 
 @NgModule({
    declarations: [
@@ -20,6 +21,7 @@ import { HttpClientModule } from '@angular/common/http';
       NavigationComponent,
       BadgeComponent,
       HomeComponent,
+      HomeSearchComponent,
       DemoUiComponent,
       CityComponent,
       CityHeroUiComponent,
