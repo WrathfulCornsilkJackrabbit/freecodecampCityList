@@ -1,0 +1,39 @@
+<div class="table-responsive shadow-lg">
+  <table class="table table-hover">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col" class="align-middle"></th>
+        <th scope="col" class="align-middle ">
+          <fa-icon [icon]="iconMap" size="lg"></fa-icon>
+        </th>
+        <th scope="col" class="align-middle text-center d-none d-sm-table-cell">
+          <fa-icon [icon]="iconPlug" size="lg"></fa-icon>
+        </th>
+        <th scope="col" class="align-middle text-center d-none d-sm-table-cell">
+          <fa-icon [icon]="iconWifi" size="lg"></fa-icon>
+        </th>
+        <th scope="col" class="align-middle text-center d-none d-sm-table-cell">
+          <fa-icon [icon]="iconChair" size="lg"></fa-icon>  
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of city.coffeeShops">
+        <th class="align-middle" scope="row">{{ item.id }}</th>
+        <td class="align-middle">
+          <div class="tableTitle">{{ item.name }}</div>
+          <div class="tableSubtitle">{{ item.location }}</div>
+        </td>
+        <td class="align-middle text-center d-none d-sm-table-cell">
+          <app-badge [badge]="item.hasPowerOutlets"></app-badge>
+        </td>
+        <td class="align-middle text-center d-none d-sm-table-cell">
+          <app-badge [badge]="item.hasWifi"></app-badge>
+        </td>
+        <td class="align-middle text-center d-none d-sm-table-cell">
+          <app-badge [badge]="item.hasGroupTables"></app-badge>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
